@@ -57,7 +57,7 @@ async function main() {
 
         try {
             // Assume assets are in the parent folder, adjust path if needed
-            const plyData = await loadPLY(`../assets/${filename}`);
+            const plyData = await loadPLY(`assets/${filename}`);
 
             // Create new buffers
             const newBuffers = initBuffers(gl, plyData);
@@ -79,8 +79,8 @@ async function main() {
     simpleProgram = createProgram(gl, vsSimple, fsSimple);
 
     // Load textures
-    woodTexture = loadTexture(gl, '../assets/textures/wood-grain_texture.jpg');
-    checkerTexture = loadTexture(gl, '../assets/textures/checkerboard_texture.jpg');
+    woodTexture = loadTexture(gl, 'assets/textures/wood-grain_texture.jpg');
+    checkerTexture = loadTexture(gl, 'assets/textures/checkerboard_texture.jpg');
 
     // --- PASS THE LOAD FUNCTION TO CONTROLS ---
     setupControls(canvas, loadCurrentModel);

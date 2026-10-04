@@ -9,6 +9,10 @@
 
 A collection of real-time 3D graphics applications showcasing advanced rendering techniques, custom shader development, physics simulation, and scene graph architecture.
 
+<p align="center">
+  <a href="https://gathik-jindal.github.io/CG-Portfolio/"><b>▶ Try the live demos on GitHub Pages</b></a>
+</p>
+
 ## 🎯 Key Skills Demonstrated
 
 - **Custom Shader Development** — Implemented Gouraud (per-vertex) and Phong (per-pixel) shading models from scratch in GLSL
